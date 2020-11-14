@@ -12,7 +12,7 @@ import Sika from './pages/sika'
 
 function App() {
   return (
-    <Router>
+    <Router basename={"https://adroit-hadjor.github.io/ok/"}>
    
       <Switch>
               
