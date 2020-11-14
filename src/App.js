@@ -12,12 +12,12 @@ import Sika from './pages/sika'
 
 function App() {
   return (
-    <Router basename={"https://adroit-hadjor.github.io/ok/"}>
+    <Router >
    
       <Switch>
               
               <MyRouter 
-              path="/"
+              path="/ok"
               page={<Homepage />}
               exact={true}
               />
